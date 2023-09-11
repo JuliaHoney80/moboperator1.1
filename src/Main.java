@@ -1,10 +1,8 @@
-import java.util.Arrays;
-
 public class Main {
     public static void main(String[] args) {
+
         int account = 100; // начальный счет
         int deposit = 1100; // пополнение счета
-
         int bonus;
         System.out.println("Ваш счет составляет:" + account + "руб.");
         System.out.println("Вы пополнили счет:" + deposit + "руб.");
@@ -18,5 +16,5 @@ public class Main {
         System.out.println("Итоговый счет:" + balance + "руб.");
         System.out.println("Ваш бонус:" + bonus + "руб.");
 
-        }
     }
+}
